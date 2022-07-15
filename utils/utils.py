@@ -19,7 +19,7 @@ def generate_shares(n, scale=100000):
 def generate_random_shares_mul(number, n, scale=100000):
     """
     return n shares of the given number
-    with the this property:
+    with the property:
         product of all shares is equal to the number
     """
 
@@ -33,7 +33,7 @@ def generate_random_shares_mul(number, n, scale=100000):
 def generate_random_shares_sum(number, n, scale=100000):
     """
     return n shares of the given number
-    with the this property:
+    with the property:
         sum of all shares is equal to the number
     """
 
