@@ -6,7 +6,7 @@ import math
 def get_non_zero_random_number():
     rnd = random.random()
 
-    while rnd == 0:  # exclue zero to be a share
+    while rnd == 0:  # exclude zero to be a share
         rnd = random.random()
 
     return rnd

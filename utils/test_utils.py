@@ -1,5 +1,5 @@
 import math
-from utils import (
+from utils.utils import (
     generate_random_shares_mul,
     generate_random_shares_sum,
     generate_shares,

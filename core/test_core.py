@@ -1,5 +1,5 @@
-from mat import matmul
-from mat import mateq
+from core.mat import matmul
+from core.mat import mateq
 
 
 def test_matmul():
@@ -18,3 +18,5 @@ def test_matmul():
     result = matmul(a, b)
 
     assert mateq(true_result, result), "Invalid result"
+
+
